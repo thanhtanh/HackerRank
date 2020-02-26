@@ -12,5 +12,5 @@ protocol Solution {
     func execute()
 }
 
-let solution = SherlockAndValidString()
+let solution = Encryption()
 solution.execute()
