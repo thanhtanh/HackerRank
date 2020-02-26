@@ -43,7 +43,7 @@
 		3A79B37624061D7300C9815E /* FreqQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqQuery.swift; sourceTree = "<group>"; };
 		3A79B37824061DB000C9815E /* MinimumAbsoluteDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumAbsoluteDifference.swift; sourceTree = "<group>"; };
 		3A79B37B24061DF200C9815E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		3A873CE923EA804800A37265 /* LungTung */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LungTung; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A873CE923EA804800A37265 /* HackerRankPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A873CEC23EA804800A37265 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 		3A873CE023EA804800A37265 = {
 			isa = PBXGroup;
 			children = (
-				3A873CEB23EA804800A37265 /* LungTung */,
+				3A873CEB23EA804800A37265 /* HackerRankPractice */,
 				3A873CEA23EA804800A37265 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,12 +77,12 @@
 		3A873CEA23EA804800A37265 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A873CE923EA804800A37265 /* LungTung */,
+				3A873CE923EA804800A37265 /* HackerRankPractice */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A873CEB23EA804800A37265 /* LungTung */ = {
+		3A873CEB23EA804800A37265 /* HackerRankPractice */ = {
 			isa = PBXGroup;
 			children = (
 				3A873CEC23EA804800A37265 /* main.swift */,
@@ -97,15 +97,15 @@
 				3A79B37824061DB000C9815E /* MinimumAbsoluteDifference.swift */,
 				3A79B37A24061DE000C9815E /* Helpers */,
 			);
-			path = LungTung;
+			path = HackerRankPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A873CE823EA804800A37265 /* LungTung */ = {
+		3A873CE823EA804800A37265 /* HackerRankPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A873CF023EA804900A37265 /* Build configuration list for PBXNativeTarget "LungTung" */;
+			buildConfigurationList = 3A873CF023EA804900A37265 /* Build configuration list for PBXNativeTarget "HackerRankPractice" */;
 			buildPhases = (
 				3A873CE523EA804800A37265 /* Sources */,
 				3A873CE623EA804800A37265 /* Frameworks */,
@@ -115,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = LungTung;
+			name = HackerRankPractice;
 			productName = LungTung;
-			productReference = 3A873CE923EA804800A37265 /* LungTung */;
+			productReference = 3A873CE923EA804800A37265 /* HackerRankPractice */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A873CE423EA804800A37265 /* Build configuration list for PBXProject "LungTung" */;
+			buildConfigurationList = 3A873CE423EA804800A37265 /* Build configuration list for PBXProject "HackerRankPractice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A873CE823EA804800A37265 /* LungTung */,
+				3A873CE823EA804800A37265 /* HackerRankPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A873CE423EA804800A37265 /* Build configuration list for PBXProject "LungTung" */ = {
+		3A873CE423EA804800A37265 /* Build configuration list for PBXProject "HackerRankPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A873CEE23EA804900A37265 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A873CF023EA804900A37265 /* Build configuration list for PBXNativeTarget "LungTung" */ = {
+		3A873CF023EA804900A37265 /* Build configuration list for PBXNativeTarget "HackerRankPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A873CF123EA804900A37265 /* Debug */,
