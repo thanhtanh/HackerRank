@@ -8,5 +8,9 @@
 
 import Foundation
 
+protocol Solution {
+    func execute()
+}
 
-
+let solution = SherlockAndAnagrams()
+solution.execute()

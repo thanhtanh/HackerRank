@@ -8,14 +8,18 @@
 
 import Foundation
 
-func repeatedString(s: String, n: Int) -> Int {
-    let numberOfA = s.map { $0 }.filter { $0 == "a" }.count
+class RepeatedString: Solution {
+    func repeatedString(s: String, n: Int) -> Int {
+        let numberOfA = s.map { $0 }.filter { $0 == "a" }.count
+        
+        let repeatTime = n / s.count
+        let remained = n - repeatTime * s.count
+        let remainedA = s.prefix(remained).map { $0 }.filter { $0 == "a" }.count
+        
+        return numberOfA * repeatTime + remainedA
+    }
     
-    let repeatTime = n / s.count
-    let remained = n - repeatTime * s.count
-    let remainedA = s.prefix(remained).map { $0 }.filter { $0 == "a" }.count
-    
-    return numberOfA * repeatTime + remainedA
+    func execute() {
+        print(repeatedString(s: "aba", n: 10))
+    }
 }
-
-let countA = repeatedString(s: "aba", n: 10)

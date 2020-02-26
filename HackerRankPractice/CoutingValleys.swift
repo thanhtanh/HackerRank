@@ -8,24 +8,30 @@
 
 import Foundation
 
-func countingValleys(n: Int, s: String) -> Int {
-    var currentAltitude = 0
-    var numberOfValley = 0
-    
-    for char in s {
-        let isInValley = currentAltitude < 0
+class CountingValleys: Solution {
+    func countingValleys(n: Int, s: String) -> Int {
+        var currentAltitude = 0
+        var numberOfValley = 0
         
-        if char == "U" {
-            currentAltitude += 1
-        } else {
-            currentAltitude -= 1
+        for char in s {
+            let isInValley = currentAltitude < 0
+            
+            if char == "U" {
+                currentAltitude += 1
+            } else {
+                currentAltitude -= 1
+            }
+            
+            if currentAltitude == 0 && isInValley {
+                numberOfValley += 1
+            }
         }
-        
-        if currentAltitude == 0 && isInValley {
-            numberOfValley += 1
-        }
+        return numberOfValley
     }
-    return numberOfValley
+
+    func execute() {
+        print(countingValleys(n: 8, s: "DDUUUUDD"))
+    }
 }
 
-let count = countingValleys(n: 8, s: "DDUUUUDD")
+
